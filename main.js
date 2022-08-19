@@ -14,7 +14,6 @@ function new_image()
     });
     canvas.add(block_image_object);
 });
-	
 }
 
 function playSound(){
