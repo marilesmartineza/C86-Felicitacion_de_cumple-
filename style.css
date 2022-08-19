@@ -11,3 +11,16 @@
     border-style: ridge;
     border-color: darkviolet;   
 }
+#silenciar{
+    border-style:dashed;
+    border-width:medium;
+    border-color:black;
+    font-size:medium;  
+  }
+
+#texto {
+    font-family: 'DynaPuff';
+    font-size: 20px; 
+    background-color: white;
+
+}
