@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Tarjeta de cumpleaños</title>
+	<title>Tarjeta de cumpleaños
+	</title>
 <link rel="stylesheet" href="style.css">
 <script src="fabric.js"></script>
 
@@ -11,18 +11,28 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+<link href="https://fonts.googleapis.com/css2?family=Combo&family=Comforter&family=Cookie&family=DynaPuff&display=swap" rel="stylesheet">
+
 </head>
 <body class="body_backgorund" onload="new_image()">
 	<center>
 		<br><br>
 		<!--- Crea el lienzo --->
-		<canvas id="myCanvas" width="600" height="400">
-		</canvas>
+		<canvas id="myCanvas" width="600" height="400"></canvas>
+		<hr>
+		<p id="texto" >Muchas felicidasdes!! 
+			<br><br>
+			espero que cumplas muchos muchos años más!!
+		</p>
 		<br>
 		<!--- Crea el botón bootstrap --->
-		<button class="btn btn-warning btn-lg" onclick="playSound()">Para mamá</button>
+		<span>
+			<button class="btn btn-warning btn-lg" onclick="playSound()">Presionar</button>
+
+		</span>
+
 	</center>
-	<audio id="myAudio" src="bdayaudio.mp3"></audio>
+	<audio id="myAudio" src="mañanitas.mp3"></audio>
 	<script src="main.js"></script>
 </body>
 </html>
